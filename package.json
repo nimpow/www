@@ -5,11 +5,16 @@
   "private": true,
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build",
+    "build": "astro check && astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "format": "biome format --write",
+    "lint": "biome lint --write"
   },
   "dependencies": {
+    "@astrojs/check": "^0.9.7",
     "astro": "^6.0.4"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.4.7"
   }
 }

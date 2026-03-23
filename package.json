@@ -11,8 +11,9 @@
     "lint": "biome lint --write"
   },
   "dependencies": {
-    "@astrojs/check": "^0.9.7",
-    "astro": "^6.0.4"
+    "@astrojs/check": "^0.9.8",
+    "astro": "^6.0.8",
+    "astro-capo": "^0.0.1"
   },
   "devDependencies": {
     "@biomejs/biome": "^2.4.7"
